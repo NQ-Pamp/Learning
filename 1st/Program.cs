@@ -11,6 +11,11 @@ namespace _1st
         static void Main(string[] args)
         {
 
+            Console.WriteLine("Who are you ?");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name + " !");
+
+            Console.ReadKey();
         }
     }
 }
