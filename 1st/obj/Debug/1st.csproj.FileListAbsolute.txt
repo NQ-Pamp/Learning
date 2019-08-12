@@ -1,0 +1,7 @@
+C:\Users\Malik\source\repos\Learning\1st\bin\Debug\1st.exe.config
+C:\Users\Malik\source\repos\Learning\1st\bin\Debug\1st.exe
+C:\Users\Malik\source\repos\Learning\1st\bin\Debug\1st.pdb
+C:\Users\Malik\source\repos\Learning\1st\obj\Debug\1st.csprojAssemblyReference.cache
+C:\Users\Malik\source\repos\Learning\1st\obj\Debug\1st.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\Learning\1st\obj\Debug\1st.exe
+C:\Users\Malik\source\repos\Learning\1st\obj\Debug\1st.pdb
