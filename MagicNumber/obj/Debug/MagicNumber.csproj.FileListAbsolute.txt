@@ -1,0 +1,7 @@
+C:\Users\Malik\source\repos\Learning\MagicNumber\bin\Debug\MagicNumber.exe.config
+C:\Users\Malik\source\repos\Learning\MagicNumber\bin\Debug\MagicNumber.exe
+C:\Users\Malik\source\repos\Learning\MagicNumber\bin\Debug\MagicNumber.pdb
+C:\Users\Malik\source\repos\Learning\MagicNumber\obj\Debug\MagicNumber.csprojAssemblyReference.cache
+C:\Users\Malik\source\repos\Learning\MagicNumber\obj\Debug\MagicNumber.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\Learning\MagicNumber\obj\Debug\MagicNumber.exe
+C:\Users\Malik\source\repos\Learning\MagicNumber\obj\Debug\MagicNumber.pdb
