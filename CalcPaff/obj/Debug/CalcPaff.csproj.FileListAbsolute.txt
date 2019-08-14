@@ -1,0 +1,14 @@
+C:\Users\Malik\source\repos\Learning\CalcPaff\bin\Debug\CalcPaff.exe.config
+C:\Users\Malik\source\repos\Learning\CalcPaff\bin\Debug\CalcPaff.exe
+C:\Users\Malik\source\repos\Learning\CalcPaff\bin\Debug\CalcPaff.pdb
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\MainWindow.g.cs
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\App.g.cs
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff_MarkupCompile.cache
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff_MarkupCompile.lref
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\MainWindow.baml
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.g.resources
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.Properties.Resources.resources
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.csproj.GenerateResource.cache
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.exe
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.pdb

@@ -36,6 +36,7 @@ namespace MagicNumber
         static void Win(int baseNum)
         {
             Console.WriteLine("Good job ! Magic number was " + baseNum);
+
         }
 
         static void NewGame(int baseNum)

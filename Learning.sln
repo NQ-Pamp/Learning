@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1st", "1st\1st.csproj", "{2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicNumber", "MagicNumber\MagicNumber.csproj", "{AA5441B1-0930-442C-A0D7-42B36EAF2FBE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{A362177D-B848-4A47-AFC6-F48933D606E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcPaff", "CalcPaff\CalcPaff.csproj", "{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{AA5441B1-0930-442C-A0D7-42B36EAF2FBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA5441B1-0930-442C-A0D7-42B36EAF2FBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA5441B1-0930-442C-A0D7-42B36EAF2FBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A362177D-B848-4A47-AFC6-F48933D606E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A362177D-B848-4A47-AFC6-F48933D606E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A362177D-B848-4A47-AFC6-F48933D606E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A362177D-B848-4A47-AFC6-F48933D606E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
