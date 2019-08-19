@@ -38,7 +38,6 @@ namespace CalcPaff
 
             string result = ""; //Convert.ToString(num1 + num2);
 
-
             switch (opeType)
             {
                 case "plus":
@@ -62,7 +61,6 @@ namespace CalcPaff
                     }
                     break;
             }
-
 
             if (Convert.ToString(num1) != numBox1.Text | Convert.ToString(num2) != numBox2.Text)
             {
