@@ -1,0 +1,15 @@
+C:\Users\Malik\source\repos\Learning\dice\bin\Debug\dice.exe.config
+C:\Users\Malik\source\repos\Learning\dice\bin\Debug\dice.exe
+C:\Users\Malik\source\repos\Learning\dice\bin\Debug\dice.pdb
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice.csprojAssemblyReference.cache
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\MainWindow.g.cs
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\App.g.cs
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice_MarkupCompile.cache
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice_MarkupCompile.lref
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\MainWindow.baml
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice.g.resources
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice.Properties.Resources.resources
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice.csproj.GenerateResource.cache
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice.exe
+C:\Users\Malik\source\repos\Learning\dice\obj\Debug\dice.pdb
