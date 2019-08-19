@@ -9,8 +9,12 @@
     <Grid>
         <TextBox x:Name="numBox1" HorizontalAlignment="Center" Height="23" Margin="0,152,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextAlignment="Right"/>
         <TextBox x:Name="numBox2" HorizontalAlignment="Center" Height="23" Margin="0,223,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120" TextAlignment="Right"/>
-        <Label Name="plusLabel" Content="+" HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.53,0.092" FontSize="18"/>
-        <Button Name="resultButton" Content="Result" HorizontalAlignment="Center" Margin="0,292,0,0" VerticalAlignment="Top" Width="75" Padding="2,4" ScrollViewer.CanContentScroll="True" Click="resultButton_Click"/>
+        <Label Name="operationLabel" Content="+" HorizontalAlignment="Center" Margin="0,182,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.53,0.092" FontSize="18"/>
+        <Button Name="resultButton" Content="=" HorizontalAlignment="Center" Margin="0,292,0,0" VerticalAlignment="Top" Width="75" Padding="2,4" ScrollViewer.CanContentScroll="True" Click="resultButton_Click" FontSize="16" FontWeight="Bold"/>
         <TextBlock Name="resultBlock" HorizontalAlignment="Left" Margin="499,193,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"/>
+        <Label x:Name="operationType" Content="Type :" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="27" Width="107"/>
+        <RadioButton x:Name="radioButtonPlus" Content="+" HorizontalAlignment="Left" Margin="10,42,0,0" VerticalAlignment="Top" IsChecked="True" Checked="radioButtonPlus_Checked"/>
+        <RadioButton x:Name="radioButtonDiv" Content="/" HorizontalAlignment="Left" Margin="10,62,0,0" VerticalAlignment="Top" Checked="radioButtonDiv_Checked"/>
+        <RadioButton x:Name="radioButtonMult" Content="X" HorizontalAlignment="Left" Margin="10,82,0,0" VerticalAlignment="Top" Checked="radioButtonMult_Checked"/>
     </Grid>
 </Window>

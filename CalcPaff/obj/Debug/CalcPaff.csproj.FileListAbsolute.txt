@@ -12,3 +12,4 @@ C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.csproj.Generate
 C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.csproj.CoreCompileInputs.cache
 C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.exe
 C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.pdb
+C:\Users\Malik\source\repos\Learning\CalcPaff\obj\Debug\CalcPaff.csprojAssemblyReference.cache
