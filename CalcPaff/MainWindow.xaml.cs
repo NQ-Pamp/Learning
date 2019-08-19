@@ -56,8 +56,10 @@ namespace CalcPaff
                     {
                         result = Convert.ToString(num1 / num2);
                     }
-                    MessageBox.Show("Division par 0", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-
+                    else
+                    {
+                        MessageBox.Show("Division par 0", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    }
                     break;
             }
 
