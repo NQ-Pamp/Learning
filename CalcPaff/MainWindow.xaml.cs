@@ -20,6 +20,9 @@ namespace CalcPaff
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        private string opeType = "plus";
+
         public MainWindow()
         {
             InitializeComponent();
@@ -33,7 +36,28 @@ namespace CalcPaff
             int.TryParse(numBox1.Text, out num1);
             int.TryParse(numBox2.Text, out num2);
 
-            string result = Convert.ToString(num1 + num2);
+            string result = ""; //Convert.ToString(num1 + num2);
+
+
+            switch (opeType)
+            {
+                case "plus":
+                    result = Convert.ToString(num1 + num2);
+                    break;
+
+                case "mult":
+                    result = Convert.ToString(num1 * num2);
+                    break;
+
+                    case "div":
+                    if (num2 > 0)
+                    {
+                        result = Convert.ToString(num1 / num2);
+                    }
+                    MessageBox.Show("Division par 0", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                    break;
+            }
+
 
             if (Convert.ToString(num1) != numBox1.Text | Convert.ToString(num2) != numBox2.Text)
             {
@@ -46,6 +70,24 @@ namespace CalcPaff
             {
                 resultBlock.Text = result;
             }
+        }
+
+        private void radioButtonPlus_Checked(object sender, RoutedEventArgs e)
+        {
+            operationLabel.Content = "+";
+            opeType = "plus";
+        }
+
+        private void radioButtonDiv_Checked(object sender, RoutedEventArgs e)
+        {
+            operationLabel.Content = "/";
+            opeType = "div";
+        }
+
+        private void radioButtonMult_Checked(object sender, RoutedEventArgs e)
+        {
+            operationLabel.Content = "X";
+            opeType = "mult";
         }
     }
 }
