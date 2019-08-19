@@ -43,10 +43,12 @@ namespace CalcPaff
             {
                 case "plus":
                     result = Convert.ToString(num1 + num2);
+
                     break;
 
                 case "mult":
                     result = Convert.ToString(num1 * num2);
+
                     break;
 
                     case "div":
@@ -55,6 +57,7 @@ namespace CalcPaff
                         result = Convert.ToString(num1 / num2);
                     }
                     MessageBox.Show("Division par 0", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+
                     break;
             }
 
