@@ -13,27 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace dice
+namespace princess
 {
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        private int diceResult = 0;
-        Random myRandom = new Random();
-
         public MainWindow()
         {
             InitializeComponent();
-        }
-
-        private void tossButton_Click(object sender, RoutedEventArgs e)
-        {
-            diceResult = myRandom.Next(1,21);
-
-            resultBlock.Text = diceResult.ToString();
         }
     }
 }

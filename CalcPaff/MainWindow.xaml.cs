@@ -36,7 +36,7 @@ namespace CalcPaff
             int.TryParse(numBox1.Text, out num1);
             int.TryParse(numBox2.Text, out num2);
 
-            string result = ""; //Convert.ToString(num1 + num2);
+            string result = "";
 
             switch (opeType)
             {
