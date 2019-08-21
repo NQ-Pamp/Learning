@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using carnet.classes;
+using System.Collections.ObjectModel;
 
 namespace carnet
 {
@@ -20,9 +22,21 @@ namespace carnet
     /// </summary>
     public partial class MainWindow : Window
     {
+        ObservableCollection<People> contactList = new ObservableCollection<People>();
+
         public MainWindow()
         {
             InitializeComponent();
+
+            //contactList.Add(new People("TOUDERT", "Malik"));
+            //contactList.Add(new People("ALAIN", "Ingreed"));
+
+            listCarnet.ItemsSource = contactList;
+        }
+
+        private void addButton_Click(object sender, RoutedEventArgs e)
+        {
+            contactList.Add(new People(nameBox.Text, surnameBox.Text));
         }
     }
 }
