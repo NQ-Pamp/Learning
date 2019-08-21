@@ -1,0 +1,15 @@
+C:\Users\Malik\source\repos\Learning\carnet\bin\Debug\carnet.exe.config
+C:\Users\Malik\source\repos\Learning\carnet\bin\Debug\carnet.exe
+C:\Users\Malik\source\repos\Learning\carnet\bin\Debug\carnet.pdb
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet.csprojAssemblyReference.cache
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\MainWindow.g.cs
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\App.g.cs
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet_MarkupCompile.cache
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet_MarkupCompile.lref
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\MainWindow.baml
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet.g.resources
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet.Properties.Resources.resources
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet.csproj.GenerateResource.cache
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet.exe
+C:\Users\Malik\source\repos\Learning\carnet\obj\Debug\carnet.pdb

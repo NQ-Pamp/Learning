@@ -1,0 +1,32 @@
+﻿<Window x:Class="carnet.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:carnet"
+        mc:Ignorable="d"
+        Title="Carnet" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="listCarnet" HorizontalAlignment="Left" Height="409" Margin="10,0,0,0" VerticalAlignment="Top" Width="423">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Name}" FontWeight="Bold"></TextBlock>
+                        <TextBlock Text="{Binding Surname}" Margin="4,0,0,0"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <StackPanel Margin="438,0,0,10">
+            <Label Content="Enter Name" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.112,0.123"/>
+            <TextBox x:Name="nameBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="344"/>
+            <Label Content="Enter Surname&#xD;&#xA;" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.112,0.123"/>
+            <TextBox x:Name="surnameBox" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" VerticalAlignment="Top" Width="344"/>
+            <Button x:Name="addButton" Content="Add" Margin="10,20,10,0" Click="addButton_Click"/>
+        </StackPanel>
+        
+
+
+    </Grid>
+</Window>
