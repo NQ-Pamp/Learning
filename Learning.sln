@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcPaff", "CalcPaff\CalcPaff.csproj", "{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dice", "dice\dice.csproj", "{B360BC5B-1650-46E5-B648-D9D07F330770}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "princess", "princess\princess.csproj", "{884F6FF1-8692-43D6-B4FF-ECE86D7D360D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD4E5EFA-FE6F-4CB9-A448-3BE748BF1B7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B360BC5B-1650-46E5-B648-D9D07F330770}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B360BC5B-1650-46E5-B648-D9D07F330770}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B360BC5B-1650-46E5-B648-D9D07F330770}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B360BC5B-1650-46E5-B648-D9D07F330770}.Release|Any CPU.Build.0 = Release|Any CPU
+		{884F6FF1-8692-43D6-B4FF-ECE86D7D360D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{884F6FF1-8692-43D6-B4FF-ECE86D7D360D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{884F6FF1-8692-43D6-B4FF-ECE86D7D360D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{884F6FF1-8692-43D6-B4FF-ECE86D7D360D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
