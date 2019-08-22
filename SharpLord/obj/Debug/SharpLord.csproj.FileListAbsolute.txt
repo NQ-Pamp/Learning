@@ -1,0 +1,15 @@
+C:\Users\Malik\source\repos\Learning\SharpLord\bin\Debug\SharpLord.exe.config
+C:\Users\Malik\source\repos\Learning\SharpLord\bin\Debug\SharpLord.exe
+C:\Users\Malik\source\repos\Learning\SharpLord\bin\Debug\SharpLord.pdb
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.csprojAssemblyReference.cache
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\MainWindow.g.cs
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\App.g.cs
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord_MarkupCompile.cache
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord_MarkupCompile.lref
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\MainWindow.baml
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.g.resources
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.Properties.Resources.resources
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.csproj.GenerateResource.cache
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.csproj.CoreCompileInputs.cache
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.exe
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.pdb

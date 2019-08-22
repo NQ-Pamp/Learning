@@ -24,11 +24,20 @@ namespace SharpLord.Classes
 
         }
 
+        //Init constructor
         public Hero(string name, int price, string alliance)
         {
             Name = name;
             Price = price;
             Alliance = alliance;
+        }
+
+        //Constructor for combat values
+        public Hero(float attackspeed, int heroHp, int attackValue)
+        {
+            AttackSpeed = attackspeed;
+            HeroHp = heroHp;
+            AttackValue = attackValue;
         }
 
         public string Name { get => name; set => name = value; }
@@ -39,19 +48,6 @@ namespace SharpLord.Classes
         public string Alliance { get => alliance; set => alliance = value; }
         public int Number { get => number; set => number = value; }
         public int Lvl { get => lvl; set => lvl = value; }
-
-        private string[] Lvl1Heroes = new string[10] { "Tiny", "Tusk", "Axe", "Razor", "Ogre", "BatRider", "Shadow Shaman", "Bloodseeker","Enchantress","Warlock" };
-        private string[] Lvl2Heroes = new string[7] { "Lina", "BeastMaster", "Juggernaut", "Puck", "Mistress","Prophet","Deboiseur"};
-        private string[] Lvl3Heroes = new string[5] { "Demon Fiend", "Crystal", "Lycan", "Tinker", "Sniper" };
-        private string[] Lvl4Heroes = new string[5] { "Mirana", "Sand King", "Arc", "Doom", "Temple Assassin" };
-
-        public string[] Lvl1Heroes1 { get => Lvl1Heroes; set => Lvl1Heroes = value; }
-
-        Hero tusk = new Hero("Tusk", 1, "Savage");
-        Hero Tiny = new Hero("Tiny", 1, "Warrior");
-        Hero Axe = new Hero("Axe", 1, "Warriror");
-
-
 
     }
 
