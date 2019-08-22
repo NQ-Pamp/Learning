@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace princess.Properties
+namespace SharpLord.Properties
 {
 
 

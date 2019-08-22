@@ -13,28 +13,16 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace princess
+namespace SharpLord
 {
     /// <summary>
     /// Logique d'interaction pour MainWindow.xaml
     /// </summary>
     public partial class MainWindow : Window
     {
-
-        private int dragonDoor = 0;
-        private int princessDoor = 0;
-        private int hp = 3;
-        private int success = 0;
-
         public MainWindow()
         {
             InitializeComponent();
         }
-
-        private void resetDoors()
-        {
-
-        }
-
     }
 }
