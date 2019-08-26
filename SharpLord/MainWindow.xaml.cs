@@ -28,9 +28,9 @@ namespace SharpLord
             string[] Lvl2Heroes = new string[7] { "Lina", "BeastMaster", "Juggernaut", "Puck", "Mistress", "Prophet", "Deboiseur" };
             string[] Lvl3Heroes = new string[5] { "Demon Fiend", "Crystal", "Lycan", "Tinker", "Sniper" };
             string[] Lvl4Heroes = new string[5] { "Mirana", "Sand King", "Arc", "Doom", "Temple Assassin" };
-            string[] Alliances = new string[5] { "Savage", "Mage", "Druid", "Assassin", "Scrappy" };
+            //string[] Alliances = new string[5] { "Savage", "Mage", "Druid", "Assassin", "Scrappy" };
 
-            Hero[] myHeroes1 = new Hero[10];
+            Hero[] myHeroes1 = new Hero[Lvl1Heroes.Length];
             Hero[] myHeroes2 = new Hero[Lvl2Heroes.Length];
             Hero[] myHeroes3 = new Hero[Lvl3Heroes.Length];
             Hero[] myHeroes4 = new Hero[Lvl4Heroes.Length];
@@ -47,7 +47,7 @@ namespace SharpLord
                 {
                     Name = heroName,
                     Lvl = 1,
-                    Alliance = ""
+                    //Alliance = ""
                 };
             }
 
@@ -57,7 +57,7 @@ namespace SharpLord
                 {
                     Name = Lvl2Heroes[i],
                     Lvl = 2,
-                    Alliance = ""
+                    //Alliance = ""
                 };
             }
 
@@ -67,7 +67,7 @@ namespace SharpLord
                 {
                     Name = Lvl3Heroes[i],
                     Lvl = 3,
-                    Alliance = ""
+                    //Alliance = ""
                 };
             }
 
@@ -77,7 +77,7 @@ namespace SharpLord
                 {
                     Name = Lvl4Heroes[i],
                     Lvl = 4,
-                    Alliance = ""
+                    //Alliance = ""
                 };
             }
 
