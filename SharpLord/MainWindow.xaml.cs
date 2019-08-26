@@ -30,7 +30,7 @@ namespace SharpLord
             string[] Lvl4Heroes = new string[5] { "Mirana", "Sand King", "Arc", "Doom", "Temple Assassin" };
             string[] Alliances = new string[5] { "Savage", "Mage", "Druid", "Assassin", "Scrappy" };
 
-            Hero[] myHeroes1 = new Hero[Lvl1Heroes.Length];
+            Hero[] myHeroes1 = new Hero[10];
             Hero[] myHeroes2 = new Hero[Lvl2Heroes.Length];
             Hero[] myHeroes3 = new Hero[Lvl3Heroes.Length];
             Hero[] myHeroes4 = new Hero[Lvl4Heroes.Length];
@@ -40,9 +40,12 @@ namespace SharpLord
 
             for (int i = 0; i < Lvl1Heroes.Length; i++)
             {
+                string heroName = Lvl1Heroes[i];
+
+                
                 myHeroes1[i] = new Hero()
                 {
-                    Name = Lvl1Heroes[i],
+                    Name = heroName,
                     Lvl = 1,
                     Alliance = ""
                 };
@@ -78,7 +81,27 @@ namespace SharpLord
                 };
             }
 
-            MessageBox.Show(myHeroes1);
+            foreach (var heroes in myHeroes1)
+            {
+                Console.WriteLine(heroes.Name.ToString() + " Lvl : " + heroes.Lvl.ToString());
+            }
+
+            foreach (var heroes in myHeroes2)
+            {
+                Console.WriteLine(heroes.Name.ToString() + " Lvl : " + heroes.Lvl.ToString());
+            }
+
+            foreach (var heroes in myHeroes3)
+            {
+                Console.WriteLine(heroes.Name.ToString() + " Lvl : " + heroes.Lvl.ToString());
+            }
+
+            foreach (var heroes in myHeroes4)
+            {
+                Console.WriteLine(heroes.Name.ToString() + " Lvl : " + heroes.Lvl.ToString());
+            }
+
+            Console.ReadLine();
 
             
         }

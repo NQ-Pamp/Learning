@@ -27,9 +27,9 @@ namespace SharpLord.Classes
         //Init constructor
         public Hero(string name, int price, string alliance)
         {
-            Name = name;
-            Price = price;
-            Alliance = alliance;
+            this.name = name;
+            this.Price = price;
+            this.Alliance = alliance;
         }
 
         //Constructor for combat values
