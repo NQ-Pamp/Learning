@@ -10,7 +10,7 @@ namespace SharpLord.Classes
     {
         private const int Slots = 5;
 
-        public void RpawnHeroes()
+        public void RespawnHeroes()
         {
 
         }

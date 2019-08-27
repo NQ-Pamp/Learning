@@ -24,11 +24,13 @@ namespace SharpLord
         public MainWindow()
         {
 
-            string[] Lvl1Heroes = new string[10]{"Tiny", "Tusk", "Axe", "Razor", "Ogre", "BatRider", "Shadow Shaman", "Bloodseeker", "Enchantress", "Warlock"};
+            string[] Lvl1Heroes = new string[10] { "Tiny", "Tusk", "Axe", "Razor", "Ogre", "BatRider", "Shadow Shaman", "Bloodseeker", "Enchantress", "Warlock" };
             string[] Lvl2Heroes = new string[7] { "Lina", "BeastMaster", "Juggernaut", "Puck", "Mistress", "Prophet", "Deboiseur" };
             string[] Lvl3Heroes = new string[5] { "Demon Fiend", "Crystal", "Lycan", "Tinker", "Sniper" };
             string[] Lvl4Heroes = new string[5] { "Mirana", "Sand King", "Arc", "Doom", "Temple Assassin" };
-            //string[] Alliances = new string[5] { "Savage", "Mage", "Druid", "Assassin", "Scrappy" };
+            string[] Alliances = new string[6] { "Savage", "Mage", "Druid", "Assassin", "Scrappy", "Knights" };
+
+            //string[,] AlliancesEx = new string[2, 3];
 
             Hero[] myHeroes1 = new Hero[Lvl1Heroes.Length];
             Hero[] myHeroes2 = new Hero[Lvl2Heroes.Length];
