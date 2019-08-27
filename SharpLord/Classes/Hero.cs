@@ -20,6 +20,11 @@ namespace SharpLord.Classes
         private int _lvl;
         private bool _isOnBench;
 
+        private static int _heroPool1 = 40;
+        private static int _heroPool2 = 30;
+        private static int _heroPool3 = 20;
+        private static int _heroPool4 = 10;
+
         //empty constructor
         public Hero()
         {
@@ -64,6 +69,10 @@ namespace SharpLord.Classes
         public int Number { get => number; set => number = value; }
         public int Lvl { get => _lvl; set => _lvl = value; }
         public bool IsOnBench { get => _isOnBench; set => _isOnBench = value; }
+        public static int HeroPool1 { get => _heroPool1; set => _heroPool1 = value; }
+        public static int HeroPool2 { get => _heroPool2; set => _heroPool2 = value; }
+        public static int HeroPool3 { get => _heroPool3; set => _heroPool3 = value; }
+        public static int HeroPool4 { get => _heroPool4; set => _heroPool4 = value; }
     }
 
     

@@ -42,7 +42,7 @@ namespace carnet.classes
 
         }
 
-        public String completeName()
+        public String CompleteName()
         {
             return Name + " " + Surname;
         }

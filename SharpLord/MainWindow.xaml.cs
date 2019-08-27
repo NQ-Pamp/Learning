@@ -37,6 +37,8 @@ namespace SharpLord
             Hero[] myHeroes3 = new Hero[Lvl3Heroes.Length];
             Hero[] myHeroes4 = new Hero[Lvl4Heroes.Length];
 
+            List<Hero> allHeroes = new List<Hero>();
+
 
             InitializeComponent();
 
@@ -44,13 +46,14 @@ namespace SharpLord
             {
                 string heroName = Lvl1Heroes[i];
 
-                
                 myHeroes1[i] = new Hero()
                 {
                     Name = heroName,
                     Lvl = 1,
                     //Alliance = ""
                 };
+                allHeroes.Add(myHeroes1[i]);
+                Hero.HeroPool1--;
             }
 
             for (int i = 0; i < Lvl2Heroes.Length; i++)
@@ -61,6 +64,8 @@ namespace SharpLord
                     Lvl = 2,
                     //Alliance = ""
                 };
+                allHeroes.Add(myHeroes2[i]);
+                Hero.HeroPool2--;
             }
 
             for (int i = 0; i < Lvl3Heroes.Length; i++)
@@ -71,6 +76,8 @@ namespace SharpLord
                     Lvl = 3,
                     //Alliance = ""
                 };
+                allHeroes.Add(myHeroes3[i]);
+                Hero.HeroPool3--;
             }
 
             for (int i = 0; i < Lvl4Heroes.Length; i++)
@@ -81,8 +88,36 @@ namespace SharpLord
                     Lvl = 4,
                     //Alliance = ""
                 };
+                allHeroes.Add(myHeroes4[i]);
+                Hero.HeroPool4--;
             }
 
+            var shopHeroes = new List<Hero>();
+            Random rand = new Random();
+
+            while (shopHeroes.Count < 5)
+            {
+                
+                shopHeroes.Add(allHeroes[rand.Next(allHeroes.Count)]); 
+            }
+
+            Console.Write("Select a Hero among these : ");
+            foreach (var heroes in shopHeroes)
+            {
+                Console.Write(heroes.Name + " / ");
+            }
+
+            string selectedHero = Console.ReadLine();
+
+            foreach (var hero in shopHeroes)
+            {
+                if ( selectedHero == hero.Name)
+                {
+                    Console.WriteLine("You Bought : " + selectedHero);
+                }
+
+            }
+            /*
             foreach (var heroes in myHeroes1)
             {
                 Console.WriteLine(heroes.Name.ToString() + " Lvl : " + heroes.Lvl.ToString());
@@ -102,6 +137,12 @@ namespace SharpLord
             {
                 Console.WriteLine(heroes.Name.ToString() + " Lvl : " + heroes.Lvl.ToString());
             }
+
+            foreach (var heroes in allHeroes)
+            {
+                Console.Write(heroes + " / ");
+            }
+            */
 
             Console.ReadLine();
 

@@ -34,7 +34,7 @@ namespace carnet
             listCarnet.ItemsSource = contactList;
         }
 
-        private void addButton_Click(object sender, RoutedEventArgs e)
+        private void AddButton_Click(object sender, RoutedEventArgs e)
         {
             contactList.Add(new People(nameBox.Text, surnameBox.Text));
         }
