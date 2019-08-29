@@ -38,41 +38,41 @@ namespace SharpLord
             {
                 string heroName = Config.Lvl1Heroes[i];
 
-                if (Config.heroArchers.Contains(Name))
-                {
-                    Alliance = Config.archers;
-                }
-
                 myHeroes1[i] = new Hero()
                 {
                     Name = heroName,
                     Lvl = 1,
-                    Alliance = ""
+                    
                 };
+                myHeroes1[i].Alliance = myHeroes1[i].CheckAlliance(heroName);
                 allHeroes.Add(myHeroes1[i]);
                 Hero.HeroPool1--;
             }
 
             for (int i = 0; i < Config.Lvl2Heroes.Length; i++)
             {
+                string heroName = Config.Lvl2Heroes[i];
+
                 myHeroes2[i] = new Hero()
                 {
-                    Name = Config.Lvl2Heroes[i],
+                    Name = heroName,
                     Lvl = 2,
-                    //Alliance = ""
                 };
+                myHeroes2[i].Alliance = myHeroes2[i].CheckAlliance(heroName);
                 allHeroes.Add(myHeroes2[i]);
                 Hero.HeroPool2--;
             }
 
             for (int i = 0; i < Config.Lvl3Heroes.Length; i++)
             {
+                string heroName = Config.Lvl3Heroes[i];
+
                 myHeroes3[i] = new Hero()
                 {
-                    Name = Config.Lvl3Heroes[i],
+                    Name = heroName,
                     Lvl = 3,
-                    //Alliance = ""
                 };
+                myHeroes3[i].Alliance = myHeroes3[i].CheckAlliance(heroName);
                 allHeroes.Add(myHeroes3[i]);
                 Hero.HeroPool3--;
             }
@@ -89,7 +89,7 @@ namespace SharpLord
             Console.Write("Select a Hero among these : ");
             foreach (var heroes in shopHeroes)
             {
-                Console.Write(heroes.Name + " / ");
+                Console.Write(heroes.Name + " ("+ heroes.Alliance + ")" + " / ");
             }
 
             string selectedHero = Console.ReadLine();

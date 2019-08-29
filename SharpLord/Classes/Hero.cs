@@ -14,7 +14,7 @@ namespace SharpLord.Classes
         private int heroHp;
         private float attackSpeed;
         private int attackValue;
-        private readonly string alliance;
+        private string alliance;
         private int number;
         private int _lvl;
         private bool _isOnBench;
@@ -51,22 +51,8 @@ namespace SharpLord.Classes
         public float AttackSpeed { get => attackSpeed; set => attackSpeed = value; }
         public int HeroHp { get => heroHp; set => heroHp = value; }
         public int AttackValue { get => attackValue; set => attackValue = value; }
-        public string Alliance
-        {
-            get => Alliance;
-            set {
-                if (value == Config.savages || value == Config.mages || value == Config.druids || value == Config.knights 
-                    || value == Config.assassins || value == Config.archers || value == Config.warlocks || value == Config.warriors
-                    || value == Config.humans)
-                {
-                    Alliance = value;
-                } 
-                else
-                {
-                    Alliance = "No alliance";
-                }
-            }
-        }
+        public string Alliance { get => alliance; set => alliance = value; }
+
         public int Number { get => number; set => number = value; }
         public int Lvl { get => _lvl; set => _lvl = value; }
         public bool IsOnBench { get => _isOnBench; set => _isOnBench = value; }
@@ -74,6 +60,52 @@ namespace SharpLord.Classes
         public static int HeroPool2 { get => _heroPool2; set => _heroPool2 = value; }
         public static int HeroPool3 { get => _heroPool3; set => _heroPool3 = value; }
         public static int HeroPool4 { get => _heroPool4; set => _heroPool4 = value; }
+
+        public string CheckAlliance(string name)
+        {
+            if (Config.heroArchers.Contains(name))
+            {
+                Alliance = Config.archers;
+            }
+            else if (Config.heroAssassins.Contains(name))
+            {
+                Alliance = Config.assassins;
+            }
+            else if (Config.heroDruids.Contains(name))
+            {
+                Alliance = Config.druids;
+            }
+            else if (Config.heroHumans.Contains(name))
+            {
+                Alliance = Config.humans;
+            }
+            else if (Config.heroKnights.Contains(name))
+            {
+                Alliance = Config.knights;
+            }
+            else if (Config.heroMages.Contains(name))
+            {
+                Alliance = Config.mages;
+            }
+            else if (Config.heroMages.Contains(name))
+            {
+                Alliance = Config.mages;
+            }
+            else if (Config.heroSavages.Contains(name))
+            {
+                Alliance = Config.savages;
+            }
+            else if (Config.heroWarlocks.Contains(name))
+            {
+                Alliance = Config.warlocks;
+            }
+            else if (Config.heroWarriors.Contains(name))
+            {
+                Alliance = Config.warriors;
+            }
+
+            return Alliance;
+        }
     }
 
     
