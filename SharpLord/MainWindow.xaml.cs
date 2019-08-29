@@ -21,30 +21,47 @@ namespace SharpLord
     /// </summary>
     public partial class MainWindow : Window
     {
+
         public MainWindow()
         {
 
-            string[] Lvl1Heroes = new string[10] { "Tiny", "Tusk", "Axe", "Razor", "Ogre", "BatRider", "Shadow Shaman", "Bloodseeker", "Enchantress", "Warlock" };
-            string[] Lvl2Heroes = new string[7] { "Lina", "BeastMaster", "Juggernaut", "Puck", "Mistress", "Prophet", "Deboiseur" };
-            string[] Lvl3Heroes = new string[5] { "Demon Fiend", "Crystal", "Lycan", "Tinker", "Sniper" };
-            string[] Lvl4Heroes = new string[5] { "Mirana", "Sand King", "Arc", "Doom", "Temple Assassin" };
-            string[] Alliances = new string[6] { "Savage", "Mage", "Druid", "Assassin", "Scrappy", "Knights" };
+            string[] Lvl3Heroes = new string[13] { "Demon Fiend", "Crystal", "Lycan", "Tinker", "Sniper", "Abaddon", "Clockwerk",
+                "Omniknight", "Phantom", "Slark", "Terror", "Treant", "Viper" };
+
+            List<string> warriors = new List<string> { Config.tiny, Config.tusk, Config.axe, Config.jugg };
+            List<string> savages = new List<string> { Config.enchantress, Config.venomancer, Config.tusk };
+            List<string> mages = new List<string> { Config.ogre, Config.razor, Config.lina };
+            List<string> assassins = new List<string> { Config.bloodseeker, Config.bounty };
+            List<string> druids = new List<string> { Config.enchantress, Config.prophet };
+            List<string> humans = new List<string> { Config.bloodseeker, Config.lina };
+            List<string> warlocks = new List<string> { Config.warlock, Config.venomancer };
+            List<string> archers = new List<string> { Config.beastMaster, Config.drow, Config.windRanger };
+
+            Dictionary<string, List<string>> alliances = new Dictionary<string, List<string>>
+            {
+                {"Savages", savages },
+                {"Warriors", warriors },
+                {"Mages", mages },
+                {"Assasins", assassins },
+                {"Druids", druids },
+                {"Humans", humans },
+                {"Warlocks", warlocks },
+                {"Archers", humans }
+            };
 
             //string[,] AlliancesEx = new string[2, 3];
 
-            Hero[] myHeroes1 = new Hero[Lvl1Heroes.Length];
-            Hero[] myHeroes2 = new Hero[Lvl2Heroes.Length];
+            Hero[] myHeroes1 = new Hero[Config.Lvl1Heroes.Length];
+            Hero[] myHeroes2 = new Hero[Config.Lvl2Heroes.Length];
             Hero[] myHeroes3 = new Hero[Lvl3Heroes.Length];
-            Hero[] myHeroes4 = new Hero[Lvl4Heroes.Length];
 
             List<Hero> allHeroes = new List<Hero>();
 
-
             InitializeComponent();
 
-            for (int i = 0; i < Lvl1Heroes.Length; i++)
+            for (int i = 0; i < Config.Lvl1Heroes.Length; i++)
             {
-                string heroName = Lvl1Heroes[i];
+                string heroName = Config.Lvl1Heroes[i];
 
                 myHeroes1[i] = new Hero()
                 {
@@ -56,11 +73,11 @@ namespace SharpLord
                 Hero.HeroPool1--;
             }
 
-            for (int i = 0; i < Lvl2Heroes.Length; i++)
+            for (int i = 0; i < Config.Lvl2Heroes.Length; i++)
             {
                 myHeroes2[i] = new Hero()
                 {
-                    Name = Lvl2Heroes[i],
+                    Name = Config.Lvl2Heroes[i],
                     Lvl = 2,
                     //Alliance = ""
                 };
@@ -78,18 +95,6 @@ namespace SharpLord
                 };
                 allHeroes.Add(myHeroes3[i]);
                 Hero.HeroPool3--;
-            }
-
-            for (int i = 0; i < Lvl4Heroes.Length; i++)
-            {
-                myHeroes4[i] = new Hero()
-                {
-                    Name = Lvl4Heroes[i],
-                    Lvl = 4,
-                    //Alliance = ""
-                };
-                allHeroes.Add(myHeroes4[i]);
-                Hero.HeroPool4--;
             }
 
             var shopHeroes = new List<Hero>();
@@ -148,5 +153,6 @@ namespace SharpLord
 
             
         }
+
     }
 }

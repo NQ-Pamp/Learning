@@ -9,13 +9,12 @@ namespace SharpLord.Classes
 {
     class Hero
     {
-
         private string _name;
         private int price;
         private int heroHp;
         private float attackSpeed;
         private int attackValue;
-        private string alliance;
+        private readonly string alliance;
         private int number;
         private int _lvl;
         private bool _isOnBench;
@@ -54,15 +53,17 @@ namespace SharpLord.Classes
         public int AttackValue { get => attackValue; set => attackValue = value; }
         public string Alliance
         {
-            get => alliance;
+            get => Alliance;
             set {
-                if (value == "Savage" || value == "Mage" || value == "Druid" || value == "Knights" || value == "Assassin" || value == "Scrappy")
+                if (value == Config.savages || value == Config.mages || value == Config.druids || value == Config.knights 
+                    || value == Config.assassins || value == Config.archers || value == Config.warlocks || value == Config.warriors
+                    || value == Config.humans)
                 {
-                    alliance = value;
+                    Alliance = value;
                 } 
                 else
                 {
-                    alliance = "No alliance";
+                    Alliance = "No alliance";
                 }
             }
         }
