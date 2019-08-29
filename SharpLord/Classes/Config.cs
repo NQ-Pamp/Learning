@@ -78,15 +78,16 @@ namespace SharpLord.Classes
                 omni, phantom, slark, terror, treant, viper };
 
 
-        public static readonly List<string> heroWarriors = new List<string> {tiny, tusk, axe, jugg };
+        public static readonly List<string> heroWarriors = new List<string> {tiny, tusk, axe, jugg, pudge, slardar };
         public static readonly List<string> heroSavages = new List<string> { enchantress, venomancer, tusk };
-        public static readonly List<string> heroMages = new List<string> { ogre, razor, lina };
-        public static readonly List<string> heroAssassins = new List<string> { bloodseeker, bounty };
-        public static readonly List<string> heroDruids = new List<string> { enchantress, prophet };
-        public static readonly List<string> heroHumans = new List<string> { bloodseeker, lina };
-        public static readonly List<string> heroWarlocks = new List<string> { warlockName, venomancer };
-        public static readonly List<string> heroArchers = new List<string> { beastMaster, drow, windRanger };
-        public static readonly List<string> heroKnights = new List<string> { luna, omni, abaddon };
+        public static readonly List<string> heroMages = new List<string> { ogre, razor, lina, puck, crystal };
+        public static readonly List<string> heroAssassins = new List<string> { bloodseeker, bounty, mistress, morphling, phantom,
+            slark, viper};
+        public static readonly List<string> heroDruids = new List<string> { enchantress, prophet, treant };
+        public static readonly List<string> heroHumans = new List<string> { bloodseeker, lina, lycan, omni };
+        public static readonly List<string> heroWarlocks = new List<string> { warlockName, venomancer, fiend };
+        public static readonly List<string> heroArchers = new List<string> { beastMaster, drow, windRanger, lycan, sniper };
+        public static readonly List<string> heroKnights = new List<string> { luna, omni, abaddon, batRider, ck };
 
         public static readonly Dictionary<string, List<string>> alliances = new Dictionary<string, List<string>>
             {
