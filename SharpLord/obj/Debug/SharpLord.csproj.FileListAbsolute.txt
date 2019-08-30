@@ -13,3 +13,6 @@ C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.csproj.Genera
 C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.csproj.CoreCompileInputs.cache
 C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.exe
 C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord.pdb
+C:\Users\Malik\source\repos\Learning\SharpLord\bin\Debug\Db.mdf
+C:\Users\Malik\source\repos\Learning\SharpLord\bin\Debug\Db_log.ldf
+C:\Users\Malik\source\repos\Learning\SharpLord\obj\Debug\SharpLord_Content.g.cs

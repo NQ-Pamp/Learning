@@ -17,6 +17,7 @@ namespace SharpLord.Classes
         private string alliance;
         private int number;
         private int _lvl;
+        private int _tier;
         private bool _isOnBench;
 
         private static int _heroPool1 = 40;
@@ -60,6 +61,7 @@ namespace SharpLord.Classes
         public static int HeroPool2 { get => _heroPool2; set => _heroPool2 = value; }
         public static int HeroPool3 { get => _heroPool3; set => _heroPool3 = value; }
         public static int HeroPool4 { get => _heroPool4; set => _heroPool4 = value; }
+        public int Tier { get => _tier; set => _tier = value; }
 
         public string CheckAlliance(string name)
         {

@@ -82,7 +82,6 @@ namespace SharpLord
 
             while (shopHeroes.Count < 5)
             {
-                
                 shopHeroes.Add(allHeroes[rand.Next(allHeroes.Count)]); 
             }
 
@@ -100,7 +99,6 @@ namespace SharpLord
                 {
                     Console.WriteLine("You Bought : " + selectedHero);
                 }
-
             }
             /*
             foreach (var heroes in myHeroes1)
