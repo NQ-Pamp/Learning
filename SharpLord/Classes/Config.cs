@@ -88,19 +88,5 @@ namespace SharpLord.Classes
         public static readonly List<string> heroWarlocks = new List<string> { warlockName, venomancer, fiend };
         public static readonly List<string> heroArchers = new List<string> { beastMaster, drow, windRanger, lycan, sniper };
         public static readonly List<string> heroKnights = new List<string> { luna, omni, abaddon, batRider, ck };
-
-        public static readonly Dictionary<string, List<string>> alliances = new Dictionary<string, List<string>>
-            {
-                {savages, heroSavages },
-                {warriors, heroWarriors },
-                {mages, heroMages },
-                {assassins, heroAssassins },
-                {druids, heroDruids },
-                {humans, heroHumans },
-                {warlocks, heroWarlocks },
-                {archers, heroHumans },
-                {knights, heroKnights }
-
-            };
     }
 }
