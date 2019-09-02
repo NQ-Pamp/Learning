@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using SharpLord.Classes;
+using System.Data.SqlClient;
 
 namespace SharpLord
 {
@@ -31,6 +32,19 @@ namespace SharpLord
             Hero[] myHeroes3 = new Hero[Config.Lvl3Heroes.Length];
 
             List<Hero> allHeroes = new List<Hero>();
+
+            SqlConnection conn = new SqlConnection
+            {
+                ConnectionString =
+                 "Data Source=(LocalDB)/MSSQLLocalDB;" +
+                 "User Instance=true;" +
+                 "Integrated Security=true;" +
+                 "AttachDbFilename=C:/Users/Malik/source\repos/Learning/SharpLord/Db.mdf;"
+            };
+
+            conn.Open();
+
+
 
             InitializeComponent();
 
