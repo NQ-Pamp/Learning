@@ -19,6 +19,7 @@ namespace SharpLord.Classes
         private int _lvl;
         private int _tier;
         private bool _isOnBench;
+        private string _pamp;
 
         private static int _heroPool1 = 40;
         private static int _heroPool2 = 30;
