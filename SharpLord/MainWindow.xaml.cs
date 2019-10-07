@@ -107,7 +107,7 @@ namespace SharpLord
 
             string selectedHero = Console.ReadLine();
 
-            foreach (var hero in shopHeroes)
+            foreach (var hero in shopHeroes)""
             {
                 if ( selectedHero == hero.Name)
                 {
